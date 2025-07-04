@@ -1,0 +1,11 @@
+<form method="POST">
+  {% csrf_token %}
+  <label>Nombre:</label><br>
+  <input type="text" name="nombre"><br>
+  <label>Email:</label><br>
+  <input type="email" name="email"><br><br>
+  <button type="submit">Registrarse</button>
+</form>
+
+<h2>¡Gracias por registrarte!</h2>
+<p>Tu información ha sido guardada.</p>
